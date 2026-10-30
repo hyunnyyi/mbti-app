@@ -1,0 +1,130 @@
+{
+  "ISTJ": {
+    "emoji": "📋",
+    "nickname": "성실한 계획 관리자",
+    "summary": "약속과 규칙을 지키는 믿음직한 사람",
+    "strengths": ["꾸준함", "책임감"],
+    "cautions": ["갑작스러운 변경에 스트레스를 받을 수 있어요"],
+    "campus": "학점 관리, 장학금 도전"
+  },
+  "ISFJ": {
+    "emoji": "🧸",
+    "nickname": "다정한 수호자",
+    "summary": "조용히 주변을 챙기는 배려왕",
+    "strengths": ["세심함", "성실함"],
+    "cautions": ["부탁을 거절하기 어려워할 수 있어요"],
+    "campus": "학생회 실무, 튜터링"
+  },
+  "INFJ": {
+    "emoji": "🔮",
+    "nickname": "통찰력 있는 조언자",
+    "summary": "사람의 마음을 깊이 이해하는 이상주의자",
+    "strengths": ["통찰력", "확고한 신념"],
+    "cautions": ["고민을 혼자 끌어안기 쉬워요"],
+    "campus": "상담·봉사 동아리"
+  },
+  "INTJ": {
+    "emoji": "🧠",
+    "nickname": "냉철한 전략가",
+    "summary": "장기 목표를 세우고 효율적으로 이루는 사람",
+    "strengths": ["분석력", "독립성"],
+    "cautions": ["말이 너무 직설적으로 들릴 수 있어요"],
+    "campus": "연구실 인턴, 공모전"
+  },
+  "ISTP": {
+    "emoji": "🔧",
+    "nickname": "만능 해결사",
+    "summary": "직접 해보며 문제를 푸는 실용파",
+    "strengths": ["침착함", "문제 해결력"],
+    "cautions": ["감정 표현이 서툴게 보일 수 있어요"],
+    "campus": "메이커·코딩 프로젝트"
+  },
+  "ISFP": {
+    "emoji": "🎨",
+    "nickname": "감성 예술가",
+    "summary": "자기만의 취향과 감성을 소중히 여기는 사람",
+    "strengths": ["감수성", "유연함"],
+    "cautions": ["마감을 미루기 쉬워요"],
+    "campus": "사진·음악 동아리"
+  },
+  "INFP": {
+    "emoji": "🌙",
+    "nickname": "꿈꾸는 이상주의자",
+    "summary": "마음속 가치를 따라 사는 몽상가",
+    "strengths": ["공감력", "창의성"],
+    "cautions": ["비판에 상처받기 쉬워요"],
+    "campus": "글쓰기·창작 활동"
+  },
+  "INTP": {
+    "emoji": "🔬",
+    "nickname": "호기심 많은 사색가",
+    "summary": "\"왜?\"를 끝까지 파고드는 논리파",
+    "strengths": ["논리력", "독창적 아이디어"],
+    "cautions": ["생각이 길어 실행이 늦어질 수 있어요"],
+    "campus": "스터디, 전공 심화 탐구"
+  },
+  "ESTP": {
+    "emoji": "🏄",
+    "nickname": "행동파 모험가",
+    "summary": "일단 해보며 배우는 에너자이저",
+    "strengths": ["순발력", "적응력"],
+    "cautions": ["장기 계획을 세우는 데 약할 수 있어요"],
+    "campus": "운동 동아리, 대외활동"
+  },
+  "ESFP": {
+    "emoji": "🎉",
+    "nickname": "분위기 메이커",
+    "summary": "어디서든 즐거움을 만드는 사람",
+    "strengths": ["친화력", "긍정 에너지"],
+    "cautions": ["즉흥적인 지출을 조심하면 좋아요"],
+    "campus": "축제 기획, 공연 동아리"
+  },
+  "ENFP": {
+    "emoji": "🌈",
+    "nickname": "열정 가득 아이디어 뱅크",
+    "summary": "새로운 가능성에 늘 설레는 사람",
+    "strengths": ["열정", "창의력"],
+    "cautions": ["시작은 많은데 마무리가 약할 수 있어요"],
+    "campus": "창업·기획 동아리"
+  },
+  "ENTP": {
+    "emoji": "💡",
+    "nickname": "아이디어 토론가",
+    "summary": "새로운 관점으로 판을 흔드는 사람",
+    "strengths": ["기발한 발상", "토론 능력"],
+    "cautions": ["반복되는 일에 쉽게 지칠 수 있어요"],
+    "campus": "토론·창업 경진대회"
+  },
+  "ESTJ": {
+    "emoji": "🏛️",
+    "nickname": "든든한 리더",
+    "summary": "체계를 세우고 팀을 이끄는 사람",
+    "strengths": ["추진력", "조직력"],
+    "cautions": ["다른 방식을 답답해할 수 있어요"],
+    "campus": "과대표, 조장"
+  },
+  "ESFJ": {
+    "emoji": "🤝",
+    "nickname": "친절한 분위기 지킴이",
+    "summary": "모두가 잘 어울리도록 챙기는 사람",
+    "strengths": ["협동심", "배려"],
+    "cautions": ["남의 평가에 민감할 수 있어요"],
+    "campus": "학과 행사, 신입생 도우미"
+  },
+  "ENFJ": {
+    "emoji": "🌟",
+    "nickname": "따뜻한 리더",
+    "summary": "사람들의 성장을 돕는 사람",
+    "strengths": ["소통력", "동기부여"],
+    "cautions": ["남을 챙기다 내 일을 놓칠 수 있어요"],
+    "campus": "학생회, 멘토링 리더"
+  },
+  "ENTJ": {
+    "emoji": "🚀",
+    "nickname": "야망 있는 지휘관",
+    "summary": "큰 목표를 향해 팀을 이끄는 사람",
+    "strengths": ["결단력", "리더십"],
+    "cautions": ["속도가 빨라 팀원이 지칠 수 있어요"],
+    "campus": "공모전 팀장, 학회장"
+  }
+}

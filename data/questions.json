@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "dimension": "EI",
+    "text": "새 학기 첫 수업 후 쉬는 시간, 나는?",
+    "choices": [
+      { "text": "옆자리 사람에게 먼저 말을 건다", "score": "E" },
+      { "text": "휴대폰을 보며 조용히 쉰다", "score": "I" }
+    ]
+  },
+  {
+    "id": 2,
+    "dimension": "SN",
+    "text": "새 과목을 공부할 때 나는?",
+    "choices": [
+      { "text": "예제와 실제 사례부터 본다", "score": "S" },
+      { "text": "전체 개념과 원리부터 이해한다", "score": "N" }
+    ]
+  },
+  {
+    "id": 3,
+    "dimension": "TF",
+    "text": "친구가 성적 때문에 속상해할 때 나는?",
+    "choices": [
+      { "text": "원인과 해결 방법을 같이 찾아준다", "score": "T" },
+      { "text": "먼저 마음을 공감하고 위로한다", "score": "F" }
+    ]
+  },
+  {
+    "id": 4,
+    "dimension": "JP",
+    "text": "시험 기간이 다가오면 나는?",
+    "choices": [
+      { "text": "미리 공부 계획표를 짠다", "score": "J" },
+      { "text": "그때그때 컨디션에 맞춰 공부한다", "score": "P" }
+    ]
+  },
+  {
+    "id": 5,
+    "dimension": "EI",
+    "text": "시험이 끝난 주말, 나는?",
+    "choices": [
+      { "text": "집에서 혼자 푹 쉬며 충전한다", "score": "I" },
+      { "text": "친구들과 모여 신나게 논다", "score": "E" }
+    ]
+  },
+  {
+    "id": 6,
+    "dimension": "SN",
+    "text": "수업 중 딴생각을 하면 주로?",
+    "choices": [
+      { "text": "미래나 엉뚱한 상상을 한다", "score": "N" },
+      { "text": "오늘 할 일이나 점심 메뉴를 생각한다", "score": "S" }
+    ]
+  },
+  {
+    "id": 7,
+    "dimension": "TF",
+    "text": "조별과제에서 참여하지 않는 팀원이 있다면?",
+    "choices": [
+      { "text": "기여도를 공정하게 반영해야 한다", "score": "T" },
+      { "text": "사정을 먼저 들어보고 분위기를 살핀다", "score": "F" }
+    ]
+  },
+  {
+    "id": 8,
+    "dimension": "JP",
+    "text": "친구와 여행을 간다면 나는?",
+    "choices": [
+      { "text": "일단 떠나고 가서 정한다", "score": "P" },
+      { "text": "일정과 장소를 미리 정해둔다", "score": "J" }
+    ]
+  },
+  {
+    "id": 9,
+    "dimension": "EI",
+    "text": "조별과제 아이디어를 낼 때 나는?",
+    "choices": [
+      { "text": "말하면서 생각이 정리된다", "score": "E" },
+      { "text": "혼자 정리한 뒤에 말하는 게 편하다", "score": "I" }
+    ]
+  },
+  {
+    "id": 10,
+    "dimension": "SN",
+    "text": "과제 안내를 들을 때 나는?",
+    "choices": [
+      { "text": "분량과 형식 같은 구체적 기준이 중요하다", "score": "S" },
+      { "text": "큰 방향만 알면 나머지는 알아서 한다", "score": "N" }
+    ]
+  },
+  {
+    "id": 11,
+    "dimension": "TF",
+    "text": "중요한 결정을 내릴 때 나는?",
+    "choices": [
+      { "text": "마음이 가는 쪽, 사람들에게 미칠 영향을 본다", "score": "F" },
+      { "text": "장단점을 따져서 합리적으로 고른다", "score": "T" }
+    ]
+  },
+  {
+    "id": 12,
+    "dimension": "JP",
+    "text": "과제 마감이 일주일 남았을 때 나는?",
+    "choices": [
+      { "text": "미리 끝내두고 마음 편히 지낸다", "score": "J" },
+      { "text": "마감 직전에 몰아서 집중한다", "score": "P" }
+    ]
+  }
+]

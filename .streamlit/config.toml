@@ -1,0 +1,14 @@
+# 파스텔 테마 (4단계 ① 테마 설정 층)
+[theme]
+base = "light"
+primaryColor = "#C8B6FF"            # 라벤더: 강조 버튼, 진행바
+backgroundColor = "#FFF8F3"         # 크림: 페이지 배경
+secondaryBackgroundColor = "#F3EEFF" # 연한 라벤더: 상자 배경
+textColor = "#3D3A4B"               # 진회색: 글자
+
+[client]
+toolbarMode = "minimal"
+
+# 코드를 저장하면 앱에 바로 반영돼요 (상단 바를 숨겨서 '다시 실행' 버튼이 안 보이기 때문)
+[server]
+runOnSave = true

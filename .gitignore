@@ -1,0 +1,14 @@
+# 파이썬이 자동으로 만드는 파일
+__pycache__/
+*.pyc
+
+# 가상환경
+.venv/
+venv/
+
+# 비밀 정보 (절대 올리지 않기)
+.streamlit/secrets.toml
+
+# 운영체제가 만드는 파일
+.DS_Store
+Thumbs.db
