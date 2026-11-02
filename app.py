@@ -11,7 +11,7 @@ import streamlit as st
 from mbti_logic import calculate_type, check_data, load_questions, load_results
 
 # 페이지 설정은 반드시 가장 먼저 실행해야 해요.
-st.set_page_config(page_title="대학생 MBTI 검사", page_icon="🌷", layout="centered")
+st.set_page_config(page_title="대학생 MBTI 검사", page_icon="🎓", layout="centered")
 
 
 # ─────────────────────────────────────────────
@@ -223,10 +223,15 @@ def restart():
 # ─────────────────────────────────────────────
 
 def show_start(questions):
+    # 결과 화면의 유형 글자처럼 지표별 파스텔 색 칸에 M B T I를 넣어요.
+    letters = "".join(
+        f'<span style="background-color:{DIM_COLORS[dim]};">{letter}</span>'
+        for dim, letter in zip(["EI", "SN", "TF", "JP"], "MBTI")
+    )
     st.markdown(
         f"""
 <div class="center">
-<div style="font-size:56px;">🌷</div>
+<div class="type-letters">{letters}</div>
 <div class="title">나는 어떤 대학생일까?</div>
 <p class="sub">{len(questions)}개 질문으로 알아보는<br>나의 MBTI 유형</p>
 <p class="sub">⏱ 약 2분 · {len(questions)}문항</p>
