@@ -9,6 +9,7 @@ import json
 import streamlit as st
 
 from mbti_logic import calculate_type, check_data, load_questions, load_results
+from stats import save_result
 
 # 페이지 설정은 반드시 가장 먼저 실행해야 해요.
 st.set_page_config(page_title="대학생 MBTI 검사", page_icon="🎓", layout="centered")
@@ -194,6 +195,7 @@ def init_state():
 def start_quiz():
     st.session_state.answers = {}
     st.session_state.current = 1
+    st.session_state.saved = False
     st.session_state.page = "quiz"
 
 
@@ -317,6 +319,13 @@ def show_result(questions, results):
     mbti, ratios = calculate_type(answers)
     info = results.get(mbti)
 
+    # 검사 1번에 통계도 1줄만 저장해요 (화면이 다시 그려져도 중복 저장 안 함)
+    if not st.session_state.get("saved"):
+        st.session_state.saved = True
+        ok, message = save_result(mbti, ratios, answers)
+        if not ok:
+            st.toast(message, icon="⚠️")
+
     letters = "".join(
         f'<span style="background-color:{DIM_COLORS[dim]};">{letter}</span>'
         for dim, letter in zip(["EI", "SN", "TF", "JP"], mbti)
@@ -364,7 +373,10 @@ def show_result(questions, results):
             st.markdown(info["campus"])
 
     st.button("다시 검사하기", type="primary", width="stretch", on_click=restart)
-    st.caption("이 검사는 재미로 보는 간이 검사이며, 공식 MBTI® 검사가 아닙니다.")
+    st.caption(
+        "이 검사는 재미로 보는 간이 검사이며, 공식 MBTI® 검사가 아닙니다. "
+        "검사 결과는 개인정보 없이 익명 통계로 저장돼요."
+    )
 
 
 # ─────────────────────────────────────────────
