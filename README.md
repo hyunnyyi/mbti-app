@@ -15,6 +15,7 @@
 ```
 ├── app.py               Streamlit 앱 (화면과 버튼)
 ├── mbti_logic.py        점수 계산과 데이터 검사
+├── sheet_saver.py       검사 결과를 Google 시트에 익명 통계로 저장
 ├── data/
 │   ├── questions.json   질문 12개
 │   └── results.json     16개 유형 설명

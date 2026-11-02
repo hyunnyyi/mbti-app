@@ -9,7 +9,7 @@ import json
 import streamlit as st
 
 from mbti_logic import calculate_type, check_data, load_questions, load_results
-from stats import save_result
+from sheet_saver import save_result
 
 # 페이지 설정은 반드시 가장 먼저 실행해야 해요.
 st.set_page_config(page_title="대학생 MBTI 검사", page_icon="🎓", layout="centered")
